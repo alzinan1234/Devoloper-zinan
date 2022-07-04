@@ -1,5 +1,5 @@
 body{
-    background: aqua;
+    background: rgb(255, 255, 255);
 
     font-family: 'Poppins', sans-serif;  
 }
@@ -40,16 +40,39 @@ font-weight: 700;
     background-repeat: no-repeat;
     background-position: right;
 }
+.flexible-container{
+display: flex;
+
+}
+.experince-item{
+box-shadow: 10px 10px 100px gray;
+
+width: 70%; height: 500px;
+margin-left: 5%;
+margin-right: 5%;
+padding-left: 30px;
+padding-right: 30px;
+border-radius: 10px;
+
+}
+
+.experince-area{
+
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+#full-stack{
+    border-left: 12px solid darkblue;
+}
+#baby-stack{
+
+    border-left: 12px solid green;
+}
 
 
-
-
-
-
-
-
-
-
+.center{
+    text-align: center;
+}
 
 
 
